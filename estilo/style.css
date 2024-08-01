@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/t2/8440579-fundo-escuro-com-focos-ilustracao-de-fundo-gratis-vetor.jpg);
+    background-position: center center; 
+    background-size: cover;
+}
+.perfil {
+    width: 17%;
+    border-radius: 10px;
+    
+    padding: 15px;
+    
+}
+nav {
+    color: white;
+    padding: 10px;
+
+}
+nav > a {
+    color: red;
+    padding: 10px;
+    border-radius: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+nav > a:hover {
+    background-color: white;
+    color: darkcyan;
+}
+h1 {
+    color: darkgray;
+    text-align: center;
+    padding: 10px;
+}
+h2 {
+    color: darkgray;
+    text-align: center;
+    margin-top: auto;
+}
+
